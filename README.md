@@ -47,5 +47,5 @@ University of Bamenda
 
 ## Live Demo
 
-**Live URL:** 
+**Live URL:** https://queueless-q.netlify.app/
 
