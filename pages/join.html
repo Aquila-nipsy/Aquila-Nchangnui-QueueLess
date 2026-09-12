@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Queue Page</title>
+    <link rel="stylesheet" href="../styles/join.css">
+    <script src="../Scripts/join.js" defer></script>
+</head>
+<body>
+     <header>
+    <nav>
+        <div class="logo">QueueLess</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/user.html">My Queue</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="join-CTA">
+            <h1>Join the Queue in a few seconds</h1>
+            <p>Choose the service you need, enter your name, select a service and get your queue number instantly.</p>
+            <div class="simple">
+                <h3>A simpler way to wait</h3>
+                <p>Once you Join, Queueless keeps you informed about your space in line</p>
+                    <div class="CTA">
+                         <h2>#Number</h2>
+                        <p>Your queue number will appear once you Join</p>
+                     </div>
+            </div>
+        </section>
+        <section class="join-form">
+            <h2>Enter your Details Below</h2>
+            <p>Tell us what you need and we'll place you in the Queue</p>
+           <form class="form">
+             <label for="name"> Your Name</label>
+            <input type="text" name="name">
+            <label for="service">Select a Service</label>
+            <select name="service" id="SelectService" required>
+                <option value="">-- Choose a service --</option>
+                <option value="General Service">General Service</option>
+                <option value="Customer Support">Customer Support</option>
+                <option value="Technical Support">Technical Support</option>
+                <option value="Billing Inquiry">Billing Inquiry</option>
+                <option value="Account Management">Account Management</option>
+                <option value="Product Information">Product Information</option>
+                <option value="Returns & Exchanges">Returns & Exchanges</option>
+                <option value="Consultation">Consultation</option>
+            </select>
+            <p>select the service you want to access today</p>
+            <button type="submit" class="button" id="joinBtn">Join</button>
+            <p>You'll receive queue number immediately after joining</p>
+            </form>
+            <div class="next">
+                <h5>What happens next?</h5>
+                <p>Your queue number and position will appear after you join</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

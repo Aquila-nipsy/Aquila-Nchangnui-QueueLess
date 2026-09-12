@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="../styles/user.css">
+    <script src="../Scripts/user.js" defer></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo">QueueLess</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/join.html">Join Queue</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="keep-eye">
+        <h1>You're in the queue</h1>
+        <p>Keep an eye on your position while you wait. We'll show you how close your turn is</p>
+        </section>
+        <section class="Dashboard-container">
+                <div class="main-status">
+                     <h5>Current Status</h5>
+                     <p class="waiting">Waiting</p>
+                     <h5>Your Queue Number</h5>
+                     <h1>#024</h1>
+                     <p>General Service</p>
+                </div>
+                <div class="right-column">
+                    <div class="top-row">
+                        <div class="position">
+                            <h5>Current Position</h5>
+                            <p><span>3rd</span> in line</p>
+                        </div>  
+                        <div class="position">
+                            <h5>People Ahead</h5>
+                            <p><span>2</span> People before you</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h5>Estimated Waiting Time</h5>
+                        <span id="estimatedTime">~12 minutes</span>
+                        <p>Estimated based on the current queue</p>
+                    </div>
+                </div>
+            </section>
+        <section class="progress">
+        <div id="progress-bar"></div>
+        <p>Please stay nearby and keep an eye on your queue status</p>
+    </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard</title>
+    <link rel="stylesheet" href="../styles/staff.css">
+    <script src="../Scripts/staff.js" defer></script>
+</head>
+<body>
+     <header>
+    <nav>
+        <div class="logo">QueueLess</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/join.html">Join Queue</a></li>
+            <li><a href="../pages/user.html">My Queue</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <h1>Manage Your Queue</h1>
+        <p>View the current queue, call the next customer and complete service as each customer is attended to.</p>
+    </section>
+    <section class="status">
+        <div class="card">
+            <h4>People waiting</h4>
+            <span>2</span>
+            <p>customers currently in the queue</p>
+        </div>
+        <div class="card">
+            <h4>Current Customer</h4>
+            <span>#03</span>
+            <p>Customer being served now</p>
+        </div>
+        <div class="card">
+          <h4>Next in line</h4>
+            <span>#04</span>
+            <p>Next customer to be called</p>  
+        </div>
+    </section>
+    <section class="Dashboard"> 
+            <div class="list-container">
+                <h3>Current Queue</h3>
+            <p>customers waiting to be served</p>
+             <div class="list">
+            <div class="number">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+        <div class="number">
+            <ul>
+               <li></li>
+            </ul>
+        </div>
+        <div class="number">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+        </div>
+            </div>
+        <div class="controls">
+            <h3>Queue Controls</h3>
+            <p>Manage the next customer</p>
+            <button id="nextCustomerBtn" class="button">Call Next Customer</button>
+            <button id="completeServiceBtn" class="button">Complete Service</button>
+        </div>
+    </section>
+
+</body>
+</html>

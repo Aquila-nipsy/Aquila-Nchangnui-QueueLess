@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueueLess Homepage</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="Scripts/index.js" defer></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo">QueueLess</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">How it works</a></li>
+            <li><a href="./pages/join.html">Join Queue</a></li>
+            <li><a href="./pages/staff.html">Staff Dashboard</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="hero">  
+            <div class="hero-content">
+            <p class="logo">Queueless</p>
+            <p class="context">A simple way to wait</p>
+            <h2>Your time matters. waiting should be simpler</h2>
+            <p class="context">Queueless helps you join a queue digitally, keep track of your place, and spend your waiting time doing what matters</p>
+             <div class="hero-buttons">
+                 <button class="button"><a href="./pages/join.html">Join Queue</a></button>
+                 <button id="staffBtn"><a href="./pages/staff.html">Staff dashboard</a></button>
+            </div>
+            </div>
+            <div class="image-container">
+                <img src="./Assets/image.png" alt="Queue Demonstratione">
+            </div>
+        </section>
+
+        <section id="about" class="about-content">
+            <p class="heading">About QueueLess</p>
+            <div><p class="context">QueueLess is a simple digital queue management system that lets customers join a service queue, receive a queue number, and monitor their position while they wait. It also helps service staff keep the queue organized and move customers through the service process</p></div>
+        </section>
+
+        <section id="work" class="work-container">
+            <p class="heading">How it works</p>
+            <div class="cards-container">
+                <div class="cards">
+                    <h4>Choose a service</h4>
+                    <p>Select the service you need and join the digital queue without standing in line</p>
+                    <div class="backgroound"></div>
+                </div>
+                 <div class="cards">
+                    <h4>Join the queue</h4>
+                    <p>Get your queue number and see your position and estimated waiting time</p>
+                     <div class="backgroound"></div>
+                 </div>
+                  <div class="cards">
+                    <h4>Track your turn</h4>
+                    <p>Follow the queue as it moves and know when your turn is approaching.</p>
+                     <div class="backgroound"></div>
+                  </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
